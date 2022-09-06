@@ -24,18 +24,18 @@ export default function Nav() {
 
           <div className="collapse navbar-collapse " id="navbarNav">
             <ul className="navbar-nav ms-auto me-5 " style={{color:"#d9ff6c"}}>
-              <li className="nav-item ">
-                <a className="text-light nav-link active" aria-current="page" href="/#">
+              <li className="nav-item mx-3 ">
+                <a className="text-green nav-link " aria-current="page" href="/#">
                   Home
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="text-light nav-link" href="/#">
+              <li className="nav-item mx-3">
+                <a className="text-green nav-link " href="/#">
                   Features
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="text-light nav-link" href="/#">
+              <li className="nav-item mx-3">
+                <a className="text-green nav-link  btn-green p-0" href="/#">
                   Pricing
                 </a>
               </li>

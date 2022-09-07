@@ -25,9 +25,7 @@ nav :only-child{
   color: #d9ff6c;
 }
 
-.text-green:hover{
-  color: #f0ffff;
-}
+
 
 .btn-green {
   color: #d8ff6c;
@@ -169,3 +167,42 @@ nav :only-child{
   height: 2px;
   background-color: #d8ff6c;
 }
+
+.become{
+  height: 100%;
+}
+
+div.become.container > div > div:nth-child(2) > img{
+  filter: brightness(0.7)contrast(1.3)saturate(1.1);
+}
+
+.mask{
+  height: 100%;
+  padding: 150px;
+}
+
+.cls-1 {
+  
+  stroke: #d9ff6c;
+  stroke-width: 5px;
+  fill: none;
+ stroke-dasharray: 5320;
+  opacity: 10;
+  animation: trazar 2s ease-in-out infinite; 
+}
+
+@keyframes trazar {
+  0% {
+     opacity: 0;
+     fill: none;
+     stroke-dashoffset: 5320;
+  }  
+  
+  20% {
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 5320;
+  }
+}
+
+

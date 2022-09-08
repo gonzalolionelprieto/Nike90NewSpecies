@@ -7,9 +7,9 @@ export default function Become() {
         <div className="col-6  d-flex flex-column justify-content-center align-items-center">
           <div className="col-8  ">
             <div className="col">
-              <h2 className="text-green">TRADITION- <br /> REVIEW OF THE REVOLUTION</h2>
+              <h2 className="text-green">TRADITION  - <br /> REVIEW OF THE REVOLUTION</h2>
             </div>
-            s
+            
             
             <div className="col">
               <p className="text-green">
@@ -19,7 +19,7 @@ export default function Become() {
               </p>
             </div>
             <div className="col">
-              <p className="text-green">
+              <p className="text-green light">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Deserunt inventore explicabo id aperiam aspernatur neque error
                 excepturi illo cupiditate aliquid!

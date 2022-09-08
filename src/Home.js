@@ -3,6 +3,7 @@ import About from './components/About'
 import Become from './components/Become'
 import Headers from './components/Headers'
 import Mask from './components/Mask'
+import Member from './components/Member'
 import Nav from './components/Nav'
 import Separate from './components/Separate'
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Separate />
         <Become />
         <Mask />
+        <Member />
     </div>
   )
 }

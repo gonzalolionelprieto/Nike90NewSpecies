@@ -37,8 +37,8 @@ export default function Headers() {
               </div>
             </div>
 
-            <div className="col-10 mx-auto">
-              <p className="col-8 text-center mx-auto">
+            <div className="col-12 d-flex justify-content-center">
+              <p className="col-8 text-center mt-5">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, asperiores aliquam quod culpa rem adipisci iste cum quas nostrum ipsa. Earum ut facilis impedit animi at? Dolores placeat fugiat itaque labore doloremque debitis cupiditate totam hic, neque earum ipsa a accusamus repudiandae nihil laboriosam aliquam ullam laborum mollitia sapiente laudantium!
               </p>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './components/About'
 import Become from './components/Become'
+import Footer from './components/Footer'
 import Headers from './components/Headers'
 import Mask from './components/Mask'
 import Member from './components/Member'
@@ -17,6 +18,7 @@ export default function Home() {
         <Become />
         <Mask />
         <Member />
+        <Footer />
     </div>
   )
 }

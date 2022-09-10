@@ -89,6 +89,11 @@ nav :only-child{
   animation: neonAnim 2s alternate-reverse infinite;
 }
 
+.t-5{
+  position:relative;
+  top: 5%;
+}
+
 @keyframes neonAnim {
   0% {
    
@@ -168,8 +173,9 @@ nav :only-child{
 
 
  .separate{
-  margin: 0 auto;
-  width: 1100px;
+
+  margin:  20px auto ;
+  width: 90%;
   height: 2px;
   background-color: #d8ff6c;
 }
@@ -197,6 +203,9 @@ div.become.container > div > div:nth-child(2) > img{
   padding: 150px;
 }
 
+.card{
+  background-color: #161616;
+}
 .mask h2{
   font-family: "70s",sans-serif;
   font-size: 3.5em;
@@ -230,5 +239,57 @@ div.become.container > div > div:nth-child(2) > img{
   color: #161616;
 }
 
+.footer{
+  height: 30vh;
+}
 
+@media (max-width: 800px) {
+  .header-fondo{
+    height: 100vh;
+  }
+  
+  .header h1{
+    font-size: 3em;
+    letter-spacing: 2px;
+    animation: none;
+  } 
 
+  .header .img3{
+    height: 60px;
+  }
+
+  .header .img4{
+    height: 15px;
+  }
+
+  .sub-header{
+    top: 5%;
+  }
+
+  .header .img6, .header .img7 {
+    height: 25px;
+}
+.about{
+  height: 90vh;
+}
+.about h2{
+  font-size: 1.1em;
+  letter-spacing: 3px;
+
+}
+
+.become h2{
+  font-size: 2em;
+}
+.mask{
+  overflow: hidden;
+  padding: 0%;
+}
+.member{
+  height: 100%;
+
+}
+.member h2{
+  font-size: 3em;
+}
+}

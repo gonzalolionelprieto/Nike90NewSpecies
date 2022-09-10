@@ -7,10 +7,11 @@ export default function Nav() {
     <div>
       <nav className="navbar navbar-expand-lg bg-dark  fixed-top" >
         <div className="container-fluid ">
-          <a className="navbar-brand ms-5 text-light" href="/#">
+          <a className="navbar-brand ms-5 text-green" href="/#">
             <img src={img4} alt=" " style={{width:"50px"}}/>
           </a>
           <button
+            style={{backgroundColor:"rgb(253, 224, 0)"}}
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -19,7 +20,7 @@ export default function Nav() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon text-light"></span>
           </button>
 
           <div className="collapse navbar-collapse " id="navbarNav">

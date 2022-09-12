@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
 
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
 body {
- 
+  overflow: hidden;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -106,7 +110,7 @@ nav :only-child{
         0 0 130px rgba(217, 255, 108, .7);
     }
   20% {
-      scale: 1.08;
+     
       filter: brightness(260%);
       
       filter: blur(0px);
@@ -249,8 +253,8 @@ div.become.container > div > div:nth-child(2) > img{
   }
   
   .header h1{
-    font-size: 3em;
-    letter-spacing: 2px;
+    font-size: 5em;
+    letter-spacing: 3px;
     animation: none;
   } 
 
@@ -285,8 +289,12 @@ div.become.container > div > div:nth-child(2) > img{
   overflow: hidden;
   padding: 0%;
 }
+
+.mask .d-none{
+  display: none;
+}
 .member{
-  height: 100%;
+  height: auto;
 
 }
 .member h2{

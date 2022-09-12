@@ -6,7 +6,7 @@ import Headers from './components/Headers';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-fluid">
      
     </div>
   );

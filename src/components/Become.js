@@ -4,7 +4,7 @@ export default function Become() {
   return (
     <div className="become container ">
       <div className="row d-flex">
-        <div className="col-12 col-sm-6  d-flex flex-column justify-content-center align-items-center">
+        <div className="col-12 col-lg-6  d-flex flex-column justify-content-center align-items-center">
           <div className="col-10  ">
             <div className="col">
               <h2 className="text-green">TRADITION  - <br /> REVIEW OF THE REVOLUTION</h2>
@@ -27,8 +27,8 @@ export default function Become() {
             </div>
           </div>
         </div>
-        <div className="col-12 col-sm-6">
-          <img className="col-12 img0" src={img0} alt=" " />
+        <div className="col-12 col-lg-6 d-flex justify-content-center">
+          <img className="col-10 col-lg-12  img0" src={img0} alt=" " />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import img0 from "/proyectos react/sneakers nike 90 new spices/nike/src/img/08.png";
+import img0 from "../img/08.png";
 export default function Become() {
   return (
     <div className="become container ">
